@@ -1,2 +1,10 @@
 <h1><%= @post.title %></h1>
 <p><%= @post.body %></p>
+
+<hr>
+
+<%= link_to "Edit post", edit_post_path %>
+<%= link_to "Delete post", post_path, data: {
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?"
+                  } %>
