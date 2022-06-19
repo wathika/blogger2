@@ -8,3 +8,39 @@
                     turbo_method: :delete,
                     turbo_confirm: "Are you sure?"
                   } %>
+
+<hr>
+
+<h2>Comments</h2>
+
+<table>
+  <tr>
+    <th>Commenter</th>
+    <th>Comment</th>
+  </tr>
+  <% @post.comments.each do |comment| %>
+    <tr>
+        <td><%= comment.commenter %></td>
+        <td><%= comment.body %></td>
+    </tr>
+  <% end %>
+</table>
+
+
+<hr>
+
+<h2>Add a comment:</h2>
+
+<%= form_with model: [ @post, @post.comments.build ] do |form| %>  
+  <p>
+    <%= form.label :commenter %><br>
+    <%= form.text_field :commenter %>
+  </p>
+  <p>
+    <%= form.label :body %><br>
+    <%= form.text_area :body%>
+  </p>
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
