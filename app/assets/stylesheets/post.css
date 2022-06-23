@@ -1,0 +1,14 @@
+.blog-title a {
+    text-decoration: none;
+    color: black;
+    border: 1px;
+}
+
+.blog-title a:visited {
+    color: grey;
+}
+
+.blog-title a:hover {
+    color: orange;
+    /* border-bottom: 1px dotted; */
+}
