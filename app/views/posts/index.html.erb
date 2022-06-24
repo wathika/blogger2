@@ -2,8 +2,8 @@
     <% @posts.reverse.each do |post| %>
         <%= render post  %>
     <% end %>
-</div>
 
-<button class="new-post-button">
-    <%= link_to "New post", new_post_path %>
-</button>
+    <button class="new-post-button">
+        <%= link_to "New post", new_post_path %>
+    </button>
+</div>

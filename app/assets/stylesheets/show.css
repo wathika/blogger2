@@ -1,7 +1,21 @@
-button {
+#post-container {
+    position: relative;
+    padding: 0 27%;
+}
+
+.buttons {
+    position: absolute;
+    right: 7%;
+    top: 25%;
+}
+
+.buttons>button {
     width: 100px;
     height: 30px;
-    /* position: absolute;
-    right: 7%;
-    top: 25%; */
+    display: block;
+    margin-top: 1rem;
+}
+
+.comments {
+    padding: 0 27%;
 }
