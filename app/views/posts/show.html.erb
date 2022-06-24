@@ -3,11 +3,17 @@
 
 <hr>
 
-<%= link_to "Edit post", edit_post_path %>
-<%= link_to "Delete post", post_path, data: {
+
+<button>
+  <%= link_to "Edit post", edit_post_path %>
+</button>
+
+<button>
+  <%= link_to "Delete post", post_path, data: {
                     turbo_method: :delete,
                     turbo_confirm: "Are you sure?"
                   } %>
+</button>
 
 <hr>
 

@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.profile>img {
+a>.profile>img {
     height: 80px;
     background-color: black;
 }
@@ -28,4 +28,19 @@
 
 .profile>.name>p:last-child {
     font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 1px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: orange;
+    /* border-bottom: 1px dotted; */
 }
