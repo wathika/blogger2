@@ -1,0 +1,21 @@
+#post-container {
+    position: relative;
+    padding: 0 27%;
+}
+
+.buttons {
+    position: absolute;
+    right: 7%;
+    top: 25%;
+}
+
+.buttons>button {
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin-top: 1rem;
+}
+
+.comments {
+    padding: 0 27%;
+}

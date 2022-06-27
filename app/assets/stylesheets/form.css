@@ -1,0 +1,15 @@
+.post-form input, .post-form textarea {
+    width: 100%;
+}
+
+.post-form>* {
+    margin: 1rem 0;
+}
+
+.post-form input {
+    height: 1.3rem;
+}
+
+.post-form textarea {
+    height: 25rem;
+}

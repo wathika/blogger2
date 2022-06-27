@@ -1,0 +1,17 @@
+.feed {
+    background-color: #dae1e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 2% 27%;
+    position: relative;
+}
+
+.new-post-button {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    right: 7%;
+    top: 25%;
+}
